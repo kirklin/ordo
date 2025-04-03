@@ -30,10 +30,23 @@ Each main category contains multiple subcategories with their own numerical code
 
 ## Installation
 
+### Direct Usage
 No installation required. Simply ensure your system has Python 3.6 or later installed.
+
+### Using as a Package with UV
+For a more integrated experience, you can install the package using the [uv](https://github.com/astral-sh/uv) package manager:
+
+```bash
+# Install uv if you don't have it
+curl -sSf https://astral.sh/uv/install.sh | sh
+
+# Install ordo package
+uv pip install ordo
+```
 
 ## Usage
 
+### Using Scripts Directly
 1. Download the appropriate script for your system:
    - `create_folders.py` (Python - all platforms)
    - `create_folders.sh` (Bash - macOS/Linux)
@@ -51,6 +64,14 @@ No installation required. Simply ensure your system has Python 3.6 or later inst
    create_folders.bat
    ```
 
+### Using as an Installed Package
+If you've installed ordo using uv:
+
+```bash
+# Simply run
+ordo
+```
+
 3. Follow the prompts to choose where to create the folder structure
 4. The program will automatically create the complete folder structure
 
@@ -63,7 +84,7 @@ No installation required. Simply ensure your system has Python 3.6 or later inst
 
 ## License
 
-MIT
+GNU General Public License v3.0
 
 ## Author
 
