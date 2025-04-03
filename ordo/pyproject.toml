@@ -1,12 +1,8 @@
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
 [project]
-name = "ordo-project"
+name = "file-ordo"
 version = "0.1.1"
 description = "A cross-platform tool to create a structured file organization system"
-readme = "README.md"
+readme = "../README.md"
 requires-python = ">=3.6"
 license = {text = "GNU General Public License v3.0"}
 authors = [
@@ -17,14 +13,5 @@ authors = [
 "Homepage" = "https://github.com/kirklin/ordo"
 "Bug Tracker" = "https://github.com/kirklin/ordo/issues"
 
-[tool.hatch.build.targets.wheel]
-packages = ["ordo"]
-
 [project.scripts]
 ordo = "ordo.cli:main"
-
-[tool.uv]
-python-preference = "managed" 
-
-[tool.uv.workspace]
-members = ["ordo"]

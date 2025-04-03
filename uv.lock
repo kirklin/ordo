@@ -1,0 +1,19 @@
+version = 1
+revision = 1
+requires-python = ">=3.6"
+
+[manifest]
+members = [
+    "file-ordo",
+    "ordo-project",
+]
+
+[[package]]
+name = "file-ordo"
+version = "0.1.1"
+source = { virtual = "ordo" }
+
+[[package]]
+name = "ordo-project"
+version = "0.1.1"
+source = { editable = "." }
