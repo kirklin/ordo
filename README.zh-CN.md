@@ -46,14 +46,14 @@ uv pip install file-ordo
 
 ### 直接使用脚本
 1. 下载适合您系统的脚本：
-   - `create_folders.py` (Python - 所有平台)
+   - `ordo/cli.py` (Python - 所有平台)
    - `create_folders.sh` (Bash - macOS/Linux)
    - `create_folders.bat` (Batch - Windows)
 
 2. 运行脚本：
    ```bash
    # Python (所有平台)
-   python create_folders.py
+   python ordo/cli.py
    
    # Bash (macOS/Linux)
    ./create_folders.sh

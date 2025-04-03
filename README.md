@@ -48,14 +48,14 @@ uv pip install file-ordo
 
 ### Using Scripts Directly
 1. Download the appropriate script for your system:
-   - `create_folders.py` (Python - all platforms)
+   - `ordo/cli.py` (Python - all platforms)
    - `create_folders.sh` (Bash - macOS/Linux)
    - `create_folders.bat` (Batch - Windows)
 
 2. Run the script:
    ```bash
    # Python (all platforms)
-   python create_folders.py
+   python ordo/cli.py
    
    # Bash (macOS/Linux)
    ./create_folders.sh
