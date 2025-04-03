@@ -41,7 +41,7 @@ For a more integrated experience, you can install the package using the [uv](htt
 curl -sSf https://astral.sh/uv/install.sh | sh
 
 # Install ordo package
-uv pip install ordo
+uv pip install file-ordo
 ```
 
 ## Usage

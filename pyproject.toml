@@ -3,14 +3,14 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "ordo"
-version = "0.1.0"
+name = "file-ordo"
+version = "0.1.1"
 description = "A cross-platform tool to create a structured file organization system"
 readme = "README.md"
 requires-python = ">=3.6"
 license = {text = "GNU General Public License v3.0"}
 authors = [
-    {name = "Kirk Lin", email = "linkirk@126.com"},
+    {name = "Kirk Lin", email = "linkirk@163.com"},
 ]
 
 [project.urls]
@@ -24,4 +24,4 @@ packages = ["ordo"]
 ordo = "ordo.cli:main"
 
 [tool.uv]
-package-manager = true 
+python-preference = "latest" 

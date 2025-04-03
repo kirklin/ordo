@@ -39,7 +39,7 @@
 curl -sSf https://astral.sh/uv/install.sh | sh
 
 # 安装ordo包
-uv pip install ordo
+uv pip install file-ordo
 ```
 
 ## 使用方法
