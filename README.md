@@ -1,4 +1,4 @@
-# Personal File Management System
+# Ordo
 
 A cross-platform tool to create a structured file organization system with a standardized classification method to solve the problem of file chaos.
 
@@ -63,4 +63,8 @@ No installation required. Simply ensure your system has Python 3.6 or later inst
 
 ## License
 
-MIT 
+MIT
+
+## Author
+
+[Kirk Lin](https://github.com/kirklin) 
